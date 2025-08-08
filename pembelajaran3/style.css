@@ -1,0 +1,85 @@
+body {
+  background-color: gray;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  color: black;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  background-color: darkgray;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px #403f3fe8;
+  
+}
+
+.jumbotron img {
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.collapse{
+  font-size: 1rem;
+  font-weight: bold;
+}
+  
+section {
+  padding: 4rem;
+}
+
+#about .col {
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 1rem auto;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#project h2 {
+  margin-bottom: 2rem;
+}
+
+section i {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #11000a;
+  transition: color 0.3s ease;
+}
+
+section i:hover {
+  color: #ff004c;
+}
+
+/* Responsive fix */
+@media (max-width: 768px) {
+  .row .col {
+    margin-bottom: 2rem;
+  }
+}
+
+.collapse ul li a {
+    color: black;
+}
+
+.container h2 {
+    font-weight: bold;
+}
